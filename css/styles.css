@@ -888,8 +888,7 @@ button{
     background-color: var(--contrast-color);
     background-image: url(../images/icon-check.svg);
     background-size: contain;
-    background-position: center;
-  
+    background-position: center;  
     background-origin: border-box;
     border-color: var(--contrast-color);
 }
