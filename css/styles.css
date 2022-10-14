@@ -741,8 +741,9 @@ button{
 .icon-modal{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-modal:hover,
-.icon-modal:focus{
+
+.modal-btn:hover > .icon-modal,
+.modal-btn:focus > .icon-modal{
     fill: var(--contrast-color);
 }
 
